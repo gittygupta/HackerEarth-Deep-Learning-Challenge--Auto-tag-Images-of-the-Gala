@@ -3,7 +3,7 @@
 #### f1 score - 84.22499
 ####
 
-This repository(private until 7th April, 2020, 7:30am IST) contains the codes used to create a simple classifier that classifies input images into Attires, Decorations and Signage, Food and, miscellaneous items. The dataset provided consisted of 5100 odd images in the training set for all the classes and 3100 odd images in the test set, the answers to which were evaluated with f1-score as the metric.
+This repository (private until 7th April, 2020, 7:30am IST) contains the codes used to create a simple classifier that classifies input images into Attires, Decorations and Signage, Food and, miscellaneous items. The dataset provided consisted of 5100 odd images in the training set for all the classes and 3100 odd images in the test set, the answers to which were evaluated with f1-score as the metric.
 
 The codes provided use fastai as the framework which has been built as an API over PyTorch.
 
