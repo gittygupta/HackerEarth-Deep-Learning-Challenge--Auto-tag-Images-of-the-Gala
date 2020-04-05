@@ -15,9 +15,9 @@ Going through the dataset thoroughly it was found that classes like DecorationsA
 
 Thereafter, models with higher layer density like ResNet-152 and DenseNet-201 came into use. However, unfreezing didn't improve the performance to any level. With freezed layers and training about 10-12 epochs on ResNet-152 yielded a score of 86-87 on the validation set and 81-83 on the test set, which was the highest that I could possibly reach till now. DensNet-201 was a dissapointment for this dataset.
 
-The above experiments are done on trials.ipynb file
+The above experiments are done on `trials.ipynb` file
 
-Furthermore, on the lower part of model_train.ipynb file, we see there is a loop. That loop was introduced so that there is proper shuffling of data during training, (such that the model can be trained on not one particular training set but over a random sequence of images each time, and a random percentage being the validation set) and not just before the training, making the model more robust, and free from overfit. Though the loss function took more time to lessen, it was worth the wait, yielding an f1-score of 97 on the validation set, yet a dissapointing 84.22499 on the test set.
+Furthermore, on the lower part of `model_train.ipynb` file, we see there is a loop. That loop was introduced so that there is proper shuffling of data during training, (such that the model can be trained on not one particular training set but over a random sequence of images each time, and a random percentage being the validation set) and not just before the training, making the model more robust, and free from overfit. Though the loss function took more time to lessen, it was worth the wait, yielding an f1-score of 97 on the validation set, yet a dissapointing 84.22499 on the test set.
 
 Feature extraction was taken care of by ResNet-152 and accordingly very complex and unique features were detected by the final convolutions of the model.
 
